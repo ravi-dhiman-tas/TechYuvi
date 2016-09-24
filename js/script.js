@@ -123,3 +123,11 @@ var revealAnim = {
 }
 
 revealAnim.init();
+
+$("[data-scroll]").click(function(e){
+	e.preventDefault();
+	var target = $(this).attr("data-scroll");
+	$("html, body").animate({
+		scrollTop: $(target).offset().top
+	}, 1000);
+})
