@@ -131,3 +131,8 @@ $("[data-scroll]").click(function(e){
 		scrollTop: $(target).offset().top
 	}, 1000);
 })
+
+$('.carousel').carousel({
+	interval: 3000,
+	pause: null
+})
