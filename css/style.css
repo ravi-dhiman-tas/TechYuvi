@@ -3888,7 +3888,7 @@ tbody.collapse.in {
       .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
         padding-left: 0;
         padding-right: 0; } }
-  @media (max-width: 992px) {
+  @media (max-width: 768px) {
     .navbar-collapse {
       background-color: #000; } }
 
@@ -6015,9 +6015,8 @@ img {
   .section.section-default {
     padding-top: 0;
     padding-bottom: 0; }
-@support (height: 100vh) {
   .section.section-full {
-    height: 100vh; } }
+    min-height: 100vh; }
   .section.intro-section {
     padding-top: 200px;
     padding-bottom: 160px; }
@@ -7430,5 +7429,26 @@ h5, h6, p {
 
 .marginright-200 {
   margin-right: 200px; }
+
+#nav_bullets {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  z-index: 10000;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+  #nav_bullets a {
+    background: none;
+    text-decoration: none; }
+  #nav_bullets .dot {
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid #1269ec; }
+  #nav_bullets .active .dot {
+    background-color: #1269ec; }
 
 /*# sourceMappingURL=style.css.map */
