@@ -1,0 +1,61 @@
+[0927/151524:ERROR:process_info.cc(330)] VirtualQueryEx: Access is denied. (0x5)
+[0927/151524:ERROR:process_info.cc(547)] ReadMemoryInfo failed
+[0927/151524:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ff6bcaa89f0 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0927/151524:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[0927/151524:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[0927/151524:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(173)] ResumeThread: The parameter is incorrect. (0x57)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:exception_snapshot_win.cc(87)] thread ID 6376 not found in process
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:exception_snapshot_win.cc(87)] thread ID 8512 not found in process
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:exception_snapshot_win.cc(87)] thread ID 6504 not found in process
+[0928/023644:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:process_reader_win.cc(142)] SuspendThread: Access is denied. (0x5)
+[0928/023644:ERROR:exception_snapshot_win.cc(87)] thread ID 6240 not found in process
+[0928/023644:WARNING:crash_report_exception_handler.cc(56)] ProcessSnapshotWin::Initialize failed
+[0928/023644:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)

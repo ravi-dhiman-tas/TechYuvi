@@ -1,3 +1,22 @@
+<?php
+	if(isset($_POST['submit'])){
+
+		$email = 'techyuvi@valueappz.com';
+		$name = $_POST['name'];
+		$user_email = $_POST['email'];
+		$subject = $_POST['subject'];
+		$message = $_POST['message'];
+		$headers  = 'MIME-Version: 1.0' . "\r\n";
+        $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+        $headers .= 'From: Valueappz <techyuvi@valueappz.com>' . "\r\n";
+        $html = '<p>Person Name:'.$name.'<br>Email:'. $user_email. '<br>Subject: '.$subject. '<br>Message:'.$message.'<p>';
+        mail($email, 'Message From'.$name , $html, $headers);
+		}
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
