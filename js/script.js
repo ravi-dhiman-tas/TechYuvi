@@ -122,7 +122,7 @@ var revealAnim = {
 	}
 }
 
-revealAnim.init();
+//revealAnim.init();
 
 $("[data-scroll]").click(function(e){
 	e.preventDefault();
@@ -136,3 +136,12 @@ $('.carousel').carousel({
 	interval: 3000,
 	pause: null
 })
+
+$.stellar({
+	horizontalScrolling: false,
+	verticalOffset: 0,
+	responsive: true,
+	scrollProperty: 'scroll',
+	positionProperty: 'transform'
+});
+//$('section.scroll-section').scrollIndicatorBullets();

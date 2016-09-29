@@ -6015,6 +6015,9 @@ img {
   .section.section-default {
     padding-top: 0;
     padding-bottom: 0; }
+@support (height: 100vh) {
+  .section.section-full {
+    height: 100vh; } }
   .section.intro-section {
     padding-top: 200px;
     padding-bottom: 160px; }
